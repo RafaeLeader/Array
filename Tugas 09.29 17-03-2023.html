@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 09.29</title>
+    <!-- JavaScript -->
+    <Script>
+        // Array Method
+
+        let myArray = ["Halo", "Hi", "Hey"];
+
+        console.log(myArray[0]); // Output: "Halo"
+
+        myArray[1] = "Hi";
+            console.log(myArray); // Output: ["Halo", "Hi", "Hey"]
+
+    //Array Filter
+        const numbers = [1, 2, 3, 4, 5];
+
+        const filteredNumbers = numbers.filter(num => num <= 5);
+            console.log(filteredNumbers); // Output: [1, 2, 3, 4, 5]
+    
+    // Array ForEach
+        const fruits = ['watermelon', 'lemon', 'coconut'];
+            fruits.forEach(fruit => console.log(fruit));
+    
+    // Array Join
+        const juice = ['Cranberries', 'Pomegranate', 'Cucumber'];
+
+        const juiceString = juice.join('|');
+        console.log(juiceString); // Output: "Cranberries,Pomegranate,Cucumber"
+
+    // Array Map
+        const Angka = [1, 2, 3, 4, 5];
+            const squaredAngka = Angka.map(ank => ank ** 2);
+
+    // Array pop
+        const jumlahBuah = [1, 2, 3, 4, 5];
+        const buahTerakhir = jumlahBuah.pop();
+            console.log(jumlahBuah); // Output: [1, 2, 3, 4]
+            console.log(buahTerakhir); // Output: 5
+
+    // Array Push
+    let ang = [1, 2, 3];
+    ang.push(4);
+    console.log(ang); // Output: [1, 2, 3, 4]
+
+    // Array short
+    let array = [3, 1, 4, 1, 5, 9, 2, 6, 5];
+    array.sort();
+    console.log(array); // Output: [1, 1, 2, 3, 4, 5, 5, 6, 9]
+
+    // Array ForIn
+    let nmbr = [1, 2, 3];
+    for(let index in nmbr) {
+    if(nmbr.hasOwnProperty(index)) {
+        console.log(nmbr[index]);
+    }
+}
+// Output: 1 2 3
+
+    // Array ForOf
+    let No = [1, 2, 3];
+    for(let index in No) {
+    if(No.hasOwnProperty(index)) {
+        console.log(No[index]);
+    }
+}
+// Output: 1 2 3
+
+    </Script>
+</head>
+<body>
+
+</body>
+</html>
